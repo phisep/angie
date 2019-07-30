@@ -1,0 +1,10 @@
+@extends('template.template')
+@section('header')
+	@include('pages.header-admin')
+@stop
+@section('body')
+     @include('pages.admin-login-success')  
+@stop
+@section('footer')
+    @include('pages.footer') 
+@stop

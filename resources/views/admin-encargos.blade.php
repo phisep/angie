@@ -1,0 +1,10 @@
+@extends('template.template')
+@section('header')
+    @include('pages.header')
+@stop
+@section('body')
+     @include('pages.admin-encargos') 
+@stop
+@section('footer')
+    @include('pages.footer') 
+@stop
